@@ -1,0 +1,133 @@
+.lineid {
+	font-family: verdana, arial, sans-serif;
+	width: 300px;
+	font-size: 20px;
+	color: #40403f;
+	text-align: center;
+	margin: 0px auto;
+	border-spacing: 0;
+}
+
+.linedetail {
+	font-family: verdana, arial, sans-serif;
+	width: 300px;
+	font-size: 15px;
+	margin: 0px auto;
+	border-collapse: collapse;
+	height: 35px;
+	line-height: 45px;
+	border-color: black;
+	font-family: verdana, arial, sans-serif;
+	color: #40403f;
+	text-align: center;
+	background-color: rgb(247, 239, 239);
+	border-collapse: separate;
+	border-radius: 10px;
+}
+
+.linecolortext {
+	font-size: 18px;
+	width: 100px;
+	height: 30px;
+	line-height: 0px;
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+	border-color: #40403f;
+}
+
+.linecolorinput {
+	font-size: 18px;
+	width: 25px;
+	height: 30px;
+	line-height: 0px;
+	border-top-right-radius: 9px;
+	border-bottom-right-radius: 9px;
+	border-color: #40403f;
+}
+
+.linetext {
+	font-size: 18px;
+	width: 70px;
+	height: 30px;
+	line-height: 0px;
+	border-radius: 9px;
+	border-color: #40403f;
+}
+.linepostion{
+	font-size: 18px;
+	width: 70px;
+	height: 30px;
+	line-height: 0px;
+	border-radius: 9px;
+	border-color: #40403f;
+}
+
+.linebtn {
+	width: 100px;
+	height: 25px;
+	margin-left: -25px;
+	background-color: white;
+	color: #40403f;
+	padding: -0px;
+	font-size: 16px;
+	line-height: 0px;
+	border-color: #40403f;
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+}
+
+.linebtn1 {
+	width: 30px;
+	height: 25px;
+	background-color: white;
+	color: #40403f;
+	padding: 0px;
+	font-size: 16px;
+	border-color: #40403f;
+	outline: none;
+	border-left-color: white;
+	border-top-right-radius: 9px;
+	border-bottom-right-radius: 9px;
+}
+
+.dropdown {
+	position: absolute;
+	display: inline-block;
+}
+
+.dropdown-content {
+    
+	display: none;
+	position: absolute;
+	margin-left: -90px;
+	background-color: #f1f1f1;
+	width: 110px;
+	z-index: 1;
+	
+	border-bottom-right-radius: 9px;
+	border-bottom-left-radius: 9px;
+	border:2px solid #40403f;
+}
+
+.dropdown-content a {
+	height: 30px;
+	line-height:30px;
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.linebtn1:hover, .dropdown:hover .btn {
+	background-color: #40403f;
+}
+.arrowSize{
+	padding: 10px
+}

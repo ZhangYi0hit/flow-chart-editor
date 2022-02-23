@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <link href="Map/tooltips.css" rel="stylesheet" />
+    <link href="Map/summerEditor.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #viewpage {
+      width: 1000px;
+      height: 800px;
+      border: solid 2px black;
+    }
+  </style>
+  <body>
+    <h1>View Page</h1>
+    <div id="viewpagediv"></div>
+    <svg id="viewpage"></svg>
+  </body>
+  <script src="Map/createmap.js"></script>
+  <script src="Map/createProduct.js"></script>
+  <script src="Map/maptooltips.js"></script>
+
+  <script>
+    let svgtext = localStorage.getItem("svgtext");
+    let data = JSON.parse(localStorage.getItem("datajson"));
+
+    $("#viewpage").html(svgtext);
+
+    const svgid = "viewpage";
+    const divid = "viewpagediv";
+
+    createMap(svgid, divid, data);
+    //viewshapeUpdate("S-900001", "x", "180");
+    function viewshapeUpdate(id, attrname, attrvalue) {
+      shapeUpdate(id, attrname, attrvalue);
+      createMap(svgid, divid, data);
+    }
+
+    let newproperty = { name: "zhangyi", AMHType0: "d909090" };
+    //viewpropertyUpdate(data, "S-900001", 0, newproperty);
+    function viewpropertyUpdate(data, id, pname, pvalue) {
+      data = propertyUpdate(data, id, pname, pvalue);
+      createMap(svgid, divid, data);
+    }
+  </script>
+</html>

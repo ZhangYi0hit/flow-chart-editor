@@ -1,0 +1,101 @@
+.tooltable {
+  font-family: verdana, arial, sans-serif;
+  width: 250px;
+  font-size: 15px;
+
+  text-align: center;
+  margin: 0px auto;
+  border-collapse: separate;
+
+  border-spacing: 0;
+}
+
+.toolheader  {
+  font-family: verdana, arial, sans-serif;
+
+  color: rgb(247, 239, 239);
+
+  text-align: center;
+  background-color: #40403f;
+}
+
+.toolbody tr td {
+  font-family: verdana, arial, sans-serif;
+
+  width: 125px;
+  color: rgb(247, 239, 239);
+
+ 
+  background-color: #40403f;
+}
+
+.toolfooter tr td {
+  font-family: verdana, arial, sans-serif;
+
+  color: #40403f;
+ width: 125px;
+ 
+  background-color: rgb(247, 239, 239);
+}
+
+.toolheader tr td:first-child {
+  border-top-left-radius: 12px;
+  background-color: #b9b935;
+}
+.toolheader tr td:last-child {
+  border-top-right-radius: 12px;
+}
+
+.toolfooter tr:last-child td:first-child {
+  border-bottom-left-radius: 12px;
+  border-bottom: 2px solid #40403f;
+}
+
+.toolfooter tr:last-child td:last-child {
+  border-bottom-right-radius: 12px;
+
+  border-bottom: 2px solid #40403f;
+}
+.toolfooter tr td:first-child {
+  border-left: 2px solid #40403f;
+}
+.toolfooter tr td:last-child {
+  border-right: 2px solid #40403f;
+}
+
+#svgID {
+  width: 1000px;
+  height: 800px;
+  border: solid 2px black;
+}
+#showsvg{
+  width: 1000px;
+  height: 800px;
+  border: solid 2px black;
+}
+#previewsvg {
+  width: 1000px;
+  height: 800px;
+  border: solid 2px black;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#containdiv,#containtooldiv {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  top: 80px;
+  left: 370px;
+  font-size: 9pt;
+}
+#nav,#toolnav {
+  position: absolute;
+
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 80px solid #40403f;
+  border-bottom: 10px solid transparent;
+}

@@ -1,0 +1,46 @@
+.m {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.k {
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.normal {
+    font-size: 16px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.size {
+    font-size: 26px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.color {
+    color: #00F;
+}
+
+.scrolling {
+    height: 200px;
+    width: 70px;
+    overflow: auto;
+    background: #EEEEEE;
+}
+
+.part {
+    font-style: italic;
+    color: #ada0a0;
+}

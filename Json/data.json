@@ -1,0 +1,170 @@
+{
+  "project": "project",
+  "description": "Front-end flowchart editor",
+  "format": [
+    {
+      "name": "tooltips",
+      "style": [
+        {
+          "name": "head",
+          "class": ["bold", "italic"],
+          "fontsize": "24px",
+          "width": "250px",
+          "fontcolor": "rgb(239, 239, 236)",
+          "backgroundcolor": "rgb(64, 64, 63)",
+          "fontfamily": "Arial"
+        },
+        {
+          "name": "body",
+          "class": ["bold"],
+          "fontsize": "18px",
+          "fontcolor": "#efefec",
+          "backgroundcolor": "#40403f",
+          "fontfamily": "Arial",
+          "height": "150%"
+        },
+        {
+          "name": "foot",
+          "class": ["bold"],
+          "fontsize": "18px",
+          "fontcolor": "#40403f",
+          "backgroundcolor": "#efefec",
+          "fontfamily": "Arial",
+          "height": "150%"
+        }
+      ]
+    },
+    {
+      "name": "rectangle",
+      "style": {
+        "width": "",
+        "height": "",
+        "backgroundcolor": "",
+        "bordercolor": "",
+        "borderwidth": "",
+        "borderradius": ""
+      }
+    },
+    {
+      "name": "recttext",
+      "style": {
+        "class": "bold",
+        "fontsize": "24px",
+        "fontcolor": "#40403f",
+        "fontfamily": "Arial"
+      }
+    },
+    {
+      "name": "text",
+      "style": {
+        "class": ["bold"],
+        "fontsize": "25px",
+        "fontcolor": "red",
+
+        "fontfamily": "Arial"
+      }
+    },
+    {
+      "name": "line",
+      "style": {
+        "width": "",
+        "color": "",
+        "endarrowsize": "",
+        "beginarrowsize": ""
+      }
+    },
+    {
+      "name": "circletext",
+      "style": {
+        "class": "bold",
+        "fontsize": "24px",
+        "fontcolor": "#40403f",
+        "fontfamily": "Arial"
+      }
+    },
+    {
+      "name": "circle",
+      "style": {
+        "width": "",
+        "r": "",
+        "backgroundcolor": "red",
+        "bordercolor": "Arial"
+      }
+    }
+  ],
+  "shape": [
+    {
+      "name": "rectangle",
+      "list": [
+        {
+          "ID": "S-900001",
+          "text": "hello",
+          "property": [
+            {
+              "name": "body",
+              "content": {
+                "AMHType0": "dAT0",
+                "AMHType1": "dAT1",
+                "AMHType2": "dAT2",
+                "AMHType3": "dAT3"
+              }
+            },
+            {
+              "name": "foot",
+              "content": {
+                "AMHType4": "dAT4",
+                "AMHType5": "dAT5",
+                "AMHType6": "dAT6"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "text",
+      "list": [
+        {
+          "ID": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "line",
+      "list": [
+        {
+          "ID": "",
+          "dashtype": "",
+          "beginarrowtype": "",
+          "endarrowtype": ""
+        }
+      ]
+    },
+    {
+      "name": "circle",
+      "list": [
+        {
+          "ID": "C-1001",
+          "text": "hello",
+          "property": [
+            {
+              "name": "body",
+              "content": {
+                "AMHType7": "dAT7",
+                "AMHType8": "dAT8"
+              }
+            },
+            {
+              "name": "foot",
+              "content": {
+                "AMHType9": "dAT9",
+                "AMHType10": "dAT10"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
